@@ -16,7 +16,7 @@ body {
   }
   @keyframes animacion{
     0%  {color: blueviolet;}
-    25% {color: azure;}
+    25% {color: rgb(57, 173, 173);}
     50%  {color: rgb(105, 8, 100);}
     100% {color: rgb(68, 4, 63);}
   }
@@ -38,7 +38,7 @@ body {
     background-color: rgb(192, 206, 207); 
   }
   .imagen:hover{
-    border:10px solid violet;
+    border:10px solid rgb(66, 3, 66);
   }
   .imagen{
     width: 500px;
