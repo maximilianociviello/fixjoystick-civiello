@@ -4,7 +4,6 @@ body {
     margin: 0px;
     padding: 0px;
   }
-  
   .titulo{
     color: aliceblue;
     text-align: center;
@@ -13,6 +12,9 @@ body {
     animation-name: animacion;
     animation-duration: 7s;
     animation-iteration-count: infinite;
+  }
+  .col{
+    text-align: center;
   }
   @keyframes animacion{
     0%  {color: blueviolet;}
@@ -29,18 +31,16 @@ body {
   }
   li{
     display: flex;
+    justify-content: center;
     font-feature-settings: "calt";
     font-weight: 900;
     margin: 50px;
     padding: 5px;
-    Border-radius:40px;
-    border: 7px solid rgb(54, 11, 88);
-    background-color: rgb(192, 206, 207); 
   }
   .imagen:hover{
     border:10px solid rgb(66, 3, 66);
   }
-  .imagen{
+  .img-fluid{
     width: 500px;
     height: 350px;
     display: block;
