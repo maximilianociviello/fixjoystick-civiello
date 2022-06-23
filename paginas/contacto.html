@@ -12,25 +12,46 @@
     <header>
     <h1 class="titulo">Fixjoystick</h1>
 </header>
-<nav class="container">
-    <ul class="row row-cols-7">
-            <li class="col"><a href="../index.html" class="btn btn-primary">Ir a inicio</a></li>
-            <li class="col"><a href="./consolas.html" class="btn btn-primary">Consolas</a></li>
-            <li class="col"><a href="./joysticks.html" class="btn btn-primary">Joysticks</a></li>
-            <li class="col"> <a href="./serviciotecnico.html" class="btn btn-primary">Reparaciones</a></li>
-            <li class="col"><a href="./contacto.html" class="btn btn-primary">Contacto</a></li>
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes.html/brand.jpeg" alt="" width="140" height="48">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./consolas.html">Consolas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./joysticks.html">Joysticks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./serviciotecnico.html">Servicio Tecnico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>   
         </ul>
-              </nav> 
+      </div>
+    </div>
+  </nav>
     <form>
         <h2>Contacto</h2>
         <label for="Nombre">Nombre:</label>
-        <input type="text"name="nombre"id="nombre">
+        <input type="text"name="nombre"id="nombre" class="rounded-pill">
         <br></br>
         <label for="Apellido">Apellido:</label>
-        <input type="text"name="Apellido"id="Apellido">
+        <input type="text"name="Apellido"id="Apellido" class="rounded-pill">
         <br></br>
         <label for="Email">Email:</label>
-        <input type="text"name="Email"id="Email">
+        <input type="text"name="Email"id="Email" class="rounded-pill">
         <h3>Dejanos tu consulta</h3>
         <textarea></textarea>
         <br></br>
