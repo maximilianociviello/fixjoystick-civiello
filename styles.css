@@ -1,23 +1,29 @@
-body {
-    background-color: blueviolet;
-    position: sticky;
-    margin: 0px;
-    padding: 0px;
-  }
+.titulo{
+  color: aliceblue;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 100px;
+  animation-name: animacion;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
   .navbar{
     color: blueviolet;
   }
-  .titulo{
-    color: aliceblue;
-    text-align: center;
-    font-family: fantasy;
-    font-size: 100px;
-    animation-name: animacion;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-  }
   .col{
     text-align: center;
+  }
+  .carrousel{
+    width: 350px;
+    height: 220px;
+    display: grid;
+    place-content: center;
+    margin-left: 10px;
+    display: block;
+    margin: auto;
+  }
+  .barra{
+    text-decoration: solid;
   }
   @keyframes animacion{
     0%  {color: blueviolet;}
@@ -134,7 +140,7 @@ body {
       margin-left: -180px;
       position: relative;
    }
-  .imagen{
+  .carrousel{
     width: 350px;
     height: 220px;
     display: grid;
