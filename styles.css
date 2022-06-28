@@ -71,6 +71,13 @@
     margin: auto;
     display: block;
   }
+  .wsp{
+    height: 50px;
+    width: 50px;
+    left: auto;
+    line-height: 50px;
+    margin-left: 0px;
+  }
   form{
   color: aliceblue;
   font-weight: bolder;
