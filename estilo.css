@@ -1,0 +1,93 @@
+.titulo {
+  color: aliceblue;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 100px;
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animacion {
+  0% {
+    color: blueviolet;
+  }
+  25% {
+    color: rgb(57, 173, 173);
+  }
+  50% {
+    color: rgb(105, 8, 100);
+  }
+  100% {
+    color: rgb(68, 4, 63);
+  }
+}
+
+@keyframes animacion {
+  0% {
+    color: blueviolet;
+  }
+  25% {
+    color: rgb(57, 173, 173);
+  }
+  50% {
+    color: rgb(105, 8, 100);
+  }
+  100% {
+    color: rgb(68, 4, 63);
+  }
+}
+.brand {
+  border-radius: 15px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  font-feature-settings: "calt";
+  font-weight: 900;
+  margin: 50px;
+  padding: 5px;
+}
+
+.carrousel {
+  width: 350px;
+  height: 220px;
+  display: grid;
+  place-content: center;
+  margin-left: 10px;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  position: static;
+  bottom: 0;
+  color: aliceblue;
+  height: 55px;
+  margin-top: 100px;
+  margin: auto;
+  display: block;
+}
+
+.wsp {
+  height: 50px;
+  width: 50px;
+  left: auto;
+  line-height: 50px;
+  margin-left: 0px;
+}/*# sourceMappingURL=estilo.css.map */

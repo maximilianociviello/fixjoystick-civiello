@@ -49,9 +49,6 @@
     margin: 50px;
     padding: 5px;
   }
-  .imagen:hover{
-    border:10px solid rgb(66, 3, 66);
-  }
   .img-fluid{
     width: 500px;
     height: 350px;
